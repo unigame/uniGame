@@ -4,8 +4,8 @@
     <Files>
       <File FileName="Assets/Scripts/GuiDrawButton.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/GuiDrawTextField.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GuiDrawToolBar.cs" Line="45" Column="61" />
-      <File FileName="Assets/Scripts/GuiDrawSlider.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GuiDrawToolBar.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GuiDrawSlider.cs" Line="31" Column="89" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
