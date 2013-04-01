@@ -7,7 +7,7 @@
       <File FileName="Assets/Scripts/GuiDrawToolBar.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/GuiDrawSlider.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/GuiDrawScrollView.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GuiDrawGroupView.cs" Line="8" Column="2" />
+      <File FileName="Assets/Scripts/GuiDrawGroupView.cs" Line="32" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,7 +24,9 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/Leezhm/Developments/Unity3D/uniGame/uniGame03/Assets/Scripts/GuiDrawGroupView.cs" line="24" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
