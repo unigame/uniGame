@@ -13,6 +13,10 @@ public class NLogInUnity : MonoBehaviour
 	{
 		NLogConfigManager.Instance.InitNLog();
 		logger = NLog.LogManager.GetCurrentClassLogger();
+		
+		logger.Info(UnityEngine.Application.dataPath);
+		logger.Info(UnityEngine.Application.persistentDataPath);
+		logger.Info(System.IO.Directory.GetCurrentDirectory());
 	}
 	
 	// Update is called once per frame
