@@ -41,7 +41,7 @@ public sealed class NLogConfigManager
          
         // Step 3. Set target properties   
         consoleTarget.Layout = "${date:format=HH\\:MM\\:ss} ${logger} ${message}"; 
-        fileTarget.FileName = UnityEngine.Application.dataPath + "../${shortdate}/${logger}.log"; 
+        fileTarget.FileName = System.IO.Directory.GetCurrentDirectory() + "/${shortdate}/${logger}.log"; 
         fileTarget.Layout = "${date:format=HH\\:MM\\:ss} ${logger} ${message}"; 
 		
 		UnityEngine.Debug.Log(fileTarget.FileName);
