@@ -1,22 +1,52 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Resources/NLog.xml">
+    <Files>
+      <File FileName="Assets/Scripts/NLogInUnity.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/NLogConfigManager.cs" Line="78" Column="62" />
+      <File FileName="Assets/Resources/NLog.xml" Line="3" Column="4" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="NLogConfigManager.cs" selected="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="NLog.xml" selected="True" />
               </Node>
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>ta.text</Value>
+          <Value>xml.FirstChild.LocalName</Value>
+          <Value>xml.ChildNodes</Value>
+          <Value>xml.FirstChild</Value>
+          <Value>xml.LastChild</Value>
+          <Value>xml.LocalName</Value>
+          <Value>xml.ChildNodes[0]</Value>
+          <Value>xml.FirstChild.LocalName</Value>
+          <Value>xml.LastChild.LocalName</Value>
+          <Value>xml.LastChild.NamespaceURI</Value>
+          <Value>xml.LastChild.ChildNodes</Value>
+          <Value>xml.LastChild.ChildNodes[0]</Value>
+          <Value>xml.GetElementsByTagName("targets");</Value>
+          <Value>xml.LocalName</Value>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/Leezhm/Developments/Unity3D/uniGame/LoggerInUnity/Assets/Scripts/NLogConfigManager.cs" line="87" />
+      <Breakpoint file="/Users/Leezhm/Developments/Unity3D/uniGame/LoggerInUnity/Assets/Scripts/NLogConfigManager.cs" line="78" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

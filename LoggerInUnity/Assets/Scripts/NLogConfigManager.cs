@@ -3,6 +3,12 @@
 //
 
 using System;
+using System.Xml;
+using System.Xml.Serialization;
+using System.Xml.Schema;
+
+
+using UnityEngine; // TextAsset
 
 
 public sealed class NLogConfigManager
@@ -55,6 +61,31 @@ public sealed class NLogConfigManager
          
         // Step 5. Activate the configuration 
         NLog.LogManager.Configuration = gConfig;
+	}
+	
+	public void InitFromConfigFile()
+	{
+		try
+		{
+			TextAsset ta = (TextAsset)Resources.Load("NLog", typeof(TextAsset));
+			
+			XmlDocument xml = new XmlDocument();
+			
+			xml.LoadXml(ta.text);
+			
+			UnityEngine.Debug.Log(ta.text);
+			
+			XmlNodeList nodes = xml.GetElementsByTagName("nlog/targets", "*");
+			
+			foreach(XmlElement element in nodes)
+			{
+				
+			}
+		}
+		catch(XmlException expt)
+		{
+			UnityEngine.Debug.Log(expt.ToString());
+		}
 	}
 }
 
